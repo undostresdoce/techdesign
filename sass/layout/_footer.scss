@@ -1,0 +1,14 @@
+.footer {
+    background-color: $dark-color;
+    color: $light-color;
+    text-align: center;
+    padding: 1rem 0;
+
+    &__text {
+        margin: 0;
+    }
+
+    &__team {
+        font-size: 0.8rem;
+    }
+}
