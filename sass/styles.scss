@@ -2,6 +2,8 @@
 @use 'abstracts/mixins';
 @use 'abstracts/variables';
 
+@use '../node_modules/bootstrap/scss/bootstrap.scss';
+
 @use 'base/reset';
 
 @use 'layout/header';
@@ -9,3 +11,4 @@
 
 @use 'components/card';
 @use 'components/form';
+
