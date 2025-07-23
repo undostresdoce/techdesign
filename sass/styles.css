@@ -12003,6 +12003,16 @@ textarea.form-control-lg {
   color: #343a40;
 }
 
+.footer__logo {
+  max-width: 180px;
+  margin-bottom: 0.5rem;
+}
+.footer__team {
+  margin-top: 2rem;
+  margin-bottom: 0.2rem;
+  font-size: 0.7rem;
+}
+
 .card {
   text-align: center;
 }
