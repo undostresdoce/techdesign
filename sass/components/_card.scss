@@ -1,3 +1,15 @@
 .card {
     text-align: center;
 }
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body .btn {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: auto;
+}

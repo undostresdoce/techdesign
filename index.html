@@ -52,16 +52,16 @@
     </div>
 </section>
 <!--CARDS-->
-<section>
-    <div class="container">
+<section class="card-list my-3"  style="background: linear-gradient(0deg, #dee2e6 0%, #b6d0e2 100%);">
+    <div class="container py-5">
         <div class="col-md-12 mt-3">
-                <h2 class="text-center">Soluciones a tu medida</h2>
+                <h2 class="text-center" style="font-weight: bold; font-size: x-large;">Soluciones a tu medida</h2>
                 <p class="text-center">Ofrecemos soluciones integrales de diseño y desarrollo web, adaptadas a las necesidades de tu negocio.</p>
         </div>
 
         <div class="row card-list">
-            <div class="card-list__card col-md-4" style="text-align: center;">
-                <div class="card">
+            <div class="card-list__card col-md-4 d-flex flex-column" style="text-align: center;">
+                <div class="card h-100">
                     <img src="assets/img/Img_Starter_pack.png" class="card-img-top" alt="blabla" />
                     <div class="card-body">
                         <h5 class="card-title">Starter Tech</h5>
@@ -70,8 +70,8 @@
                     </div>   
                 </div>         
             </div>
-            <div class="card-list__card col-md-4" style="text-align: center;">
-                <div class="card">
+            <div class="card-list__card col-md-4 d-flex flex-column" style="text-align: center;">
+                <div class="card h-100">
                     <img src="assets/img/Img_Business_pack.png" class="card-img-top" alt="blabla" />
                     <div class="card-body">
                         <h5 class="card-title">Business Growth</h5>
@@ -80,8 +80,8 @@
                     </div>   
                 </div>         
             </div>
-            <div class="card-list__card col-md-4" style="text-align: center;">
-                <div class="card">
+            <div class="card-list__card col-md-4 d-flex flex-column" style="text-align: center;">
+                <div class="card h-100">
                     <img src="assets/img/Img_Smart_pack.png" class="card-img-top" alt="blabla" />
                     <div class="card-body">
                         <h5 class="card-title">Smart Systems Pro</h5>
@@ -94,15 +94,26 @@
     </section>
 
 <!--Form-->
-    <section class="cta text-center my-5" data-aos="fade-up">
-        <h2 class="cta__title">Ponte en contacto con nosotros</h2>
-        <form class="form mt-3" aria-label="Formulario de contacto">
-        <div class="form-floating mb-3">
-            <input type="email" class="form__input form-control" id="emailInput" placeholder="correo@gmail.com" required />
-            <label for="emailInput">Correo electrónico</label>
+    <section class="cta text-center my-3" style="background-color: #dee2e6; padding: 20px;">
+        <div class="container col-xl-4 col-lg-6 col-md-8 col-sm-12 p-5" style="background: linear-gradient(0deg, #93ebf7 0%, #4f81c0 100%); ; border-radius: 10px;">
+            <h2 class="cta__title">Ponte en contacto con nosotros</h2>
+            <form class="form mt-3" aria-label="Formulario de contacto">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form__input form-control" id="nameInput" placeholder="Nombre" required />
+                    <label for="nameInput">Nombre</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form__input form-control" id="emailInput" placeholder="correo@gmail.com" required />
+                    <label for="emailInput">Correo electrónico</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form__input form-control" id="subjectInput" placeholder="Asunto" required />
+                    <label for="subjectInput">Asunto</label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-md">Enviar</button>
+            </form>
         </div>
-        <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
-        </form>
+        
     </section>
     </main>
 
