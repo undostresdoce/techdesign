@@ -2,11 +2,11 @@
 
 Landing page profesional para **Tech Design Solutions**, una empresa enfocada en brindar soluciones innovadoras de tecnología y diseño digital para negocios modernos.
 
-# Wireframe
+## Wireframe
 
 ![Wireframe con secciones](assets/img/wireframe.png)
 
-# Diseño en alta fidelidad
+## Diseño en alta fidelidad
 
 ![Wireframe con secciones](assets/img/prototipo.png)
 
@@ -62,19 +62,19 @@ techdesign/
 bash
 git clone https://github.com/undostresdoce/techdesign.git
 cd techdesign
-# Abre index.html en tu navegador
+Abre index.html en tu navegador
 
-🌐 Despliegue
+## 🌐 Despliegue
 El sitio está desplegado en GitHub Pages.
 Para actualizarlo, solo debes subir los cambios al branch main.
 
-📌 Estado del proyecto
+## 📌 Estado del proyecto
 ✅ Finalizado y funcional
 🛠️ Abierto a mejoras visuales o integraciones futuras (formulario, animaciones, etc.)
 
-✍️ Autores
+## ✍️ Autores
 Desarrollado por Camila Collado - Daniel Paredes - Jesús Pérez
 
-📄 Licencia
+## 📄 Licencia
 Este proyecto está bajo la Licencia MIT.
 Puedes usarlo, adaptarlo o mejorar libremente.
