@@ -59,7 +59,7 @@ techdesign/
 
 ## 📦 Cómo clonar y ejecutar localmente
 
-```bash
+bash
 git clone https://github.com/undostresdoce/techdesign.git
 cd techdesign
 # Abre index.html en tu navegador
